@@ -15,9 +15,12 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "tsc --watch --preserveWatchOutput"
+    "dev": "tsc --watch --preserveWatchOutput",
+    "ci:format": "prettier . --check",
+    "format": "prettier . --write --list-different"
   },
   "devDependencies": {
+    "prettier": "^3.6.2",
     "typescript": "^5.9.2"
   }
 }
