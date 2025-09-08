@@ -1,0 +1,23 @@
+{
+  "name": "gastro-vault",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/taulfsime/gastro-vault#readme",
+  "bugs": {
+    "url": "https://github.com/taulfsime/gastro-vault/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taulfsime/gastro-vault.git"
+  },
+  "license": "MIT",
+  "author": "taulfsime",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
