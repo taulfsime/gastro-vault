@@ -20,7 +20,12 @@
     "format": "prettier . --write --list-different"
   },
   "devDependencies": {
+    "@types/pg": "^8.15.5",
     "prettier": "^3.6.2",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "pg": "^8.16.3"
   }
 }
