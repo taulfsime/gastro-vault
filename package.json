@@ -15,11 +15,12 @@
   "type": "module",
   "main": "dist/index.js",
   "workspaces": [
-    "backend"
+    "backend/"
   ],
   "scripts": {
     "ci:format": "prettier . --check",
     "dev:backend": "npm --prefix=./backend run dev",
+    "start:backend": "npm --prefix=./backend run start",
     "format": "prettier . --write --list-different"
   },
   "devDependencies": {

@@ -5,16 +5,20 @@
   "license": "MIT",
   "author": "taulfsime",
   "type": "module",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "tsc --watch --preserveWatchOutput"
+    "dev": "tsc --watch --preserveWatchOutput",
+    "start": "node .",
+    "build": "tsc -p"
   },
   "devDependencies": {
+    "@types/express": "^5.0.3",
     "@types/pg": "^8.15.5",
     "dotenv": "^17.2.2",
     "typescript": "^5.9.2"
   },
   "dependencies": {
+    "express": "^5.1.0",
     "pg": "^8.16.3"
   }
 }
